@@ -706,6 +706,5 @@ if __name__ == "__main__":
     print(f"  Output  : {OUTPUT_FOLDER}")
     print(f"  Model   : {HF_MODEL}")
     print(f"  Steps   : {HF_STEPS} default | Guidance: {HF_GUIDANCE}")
-    print(f"  URL     : http://localhost:5000")
     print(f"{'='*50}\n")
     app.run(debug=True, host="0.0.0.0",port=True)
